@@ -7,7 +7,3 @@ Simulation waveform of FIFO memory
 
 First, I am giving reset to 1, buf_in as 0, write enable to 0 and read enable is 0 then it will so FIFO empty as high signal. After 10ns time I am giving reset to 0, buf_in as 1, write enable to 1 and read enable is 0 then it will show FIFO empty as low signal and FIFO count will be 1 because the difference between read and write pointer is one.
 
-rst = 1;
-		buf_in = 0;
-		wr_en = 0;
-		rd_en = 0;
